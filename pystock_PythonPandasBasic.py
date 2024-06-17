@@ -21,3 +21,6 @@ valuesA=[5,2,1]
 indexA=[0,1,2]
 s=Series(valuesA,indexA)
 print(a)
+
+
+
