@@ -1,18 +1,15 @@
 #include <iostream>
 
-
-
 int main()
 {
-	int num0 = 5, num1 = 10;
+	int arr[6] = { 0,1,2,3,4,5 };
+	int* ptr = arr;
 
-	int temp = num0;
-	num0 = num1;
-	num1 = temp;
-
-	std::cout << num0 << std::endl;
-	std::cout << num1 << std::endl;
+	for (int i = 0; i < 6; ++i)
+	{
+		std::cout << *(ptr + i) << std::endl;
+	}
 
 	return 0; 
 }
-
+ 
