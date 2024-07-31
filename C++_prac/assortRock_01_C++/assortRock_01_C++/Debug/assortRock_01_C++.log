@@ -1,4 +1,0 @@
-﻿  main.cpp
-D:\Me\Git\Basic-practice\C++_prac\assortRock_01_C++\assortRock_01_C++\main.cpp(22,6): warning C4305: '=': 'int'에서 'unsigned char'(으)로 잘립니다.
-D:\Me\Git\Basic-practice\C++_prac\assortRock_01_C++\assortRock_01_C++\main.cpp(22,6): warning C4309: '=': 상수 값이 잘립니다.
-  assortRock_01_C++.vcxproj -> D:\Me\Git\Basic-practice\C++_prac\assortRock_01_C++\Debug\assortRock_01_C++.exe
