@@ -9,3 +9,7 @@ a=FourCal()
 a.setdata(4,2)
 print(a.first)
 print(a.second)
+
+
+
+
