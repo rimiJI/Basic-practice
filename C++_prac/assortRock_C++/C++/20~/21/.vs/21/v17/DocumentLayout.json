@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Me\\Git\\Basic-practice\\C\u002B\u002B_prac\\assortRock_C\u002B\u002B\\C\u002B\u002B\\20~\\21\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94BEE7BF-46EE-4D9C-ADE4-682E413D0813}|21.vcxproj|D:\\Me\\Git\\Basic-practice\\C\u002B\u002B_prac\\assortRock_C\u002B\u002B\\C\u002B\u002B\\20~\\21\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94BEE7BF-46EE-4D9C-ADE4-682E413D0813}|21.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Me\\Git\\Basic-practice\\C\u002B\u002B_prac\\assortRock_C\u002B\u002B\\C\u002B\u002B\\20~\\21\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\Me\\Git\\Basic-practice\\C\u002B\u002B_prac\\assortRock_C\u002B\u002B\\C\u002B\u002B\\20~\\21\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-05T06:20:54.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
