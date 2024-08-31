@@ -1,3 +1,15 @@
-import math
+nums=list(map(int,input().split()))
+a=list(dict.fromkeys(nums))
+b=list(set(nums))
+print (a,'\n',b)
 
-print(math.comb(15,6))
+
+
+
+
+
+
+
+
+# import math
+# print(math.comb(15,6))
