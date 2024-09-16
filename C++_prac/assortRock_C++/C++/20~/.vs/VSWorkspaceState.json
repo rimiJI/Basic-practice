@@ -2,12 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\20",
-    "\\21",
-    "\\21\\21\\Debug",
-    "\\21\\21\\x64",
-    "\\21\\21\\x64\\Debug",
-    "\\21\\21\\x64\\Debug\\21.tlog",
-    "\\21\\x64\\Debug"
+    "\\21"
   ],
   "SelectedNode": "\\21\\main.cpp",
   "PreviewInSolutionExplorer": false

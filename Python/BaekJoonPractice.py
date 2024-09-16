@@ -42,3 +42,5 @@ for _ in range(a):
     brackets = input().strip()
     result = check(brackets)
     print(result)
+
+
