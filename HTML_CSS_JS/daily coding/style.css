@@ -1,0 +1,68 @@
+/* 기본 스타일 */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    
+
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #272727;
+    color: rgb(165, 205, 64);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 20px;
+    
+}
+ 
+nav ul li{
+    display: inline;
+    margin: 0;
+
+}
+nav ul li a{
+    color: rgb(142, 173, 207);
+    text-decoration:underline;
+    margin: 15px;
+    font-weight:bold;
+}
+
+/* 섹션스타일 */
+section h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.product img{
+    min-width: 100px;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+    
+.product p {
+    font-size: 18px;
+    color: #555;
+    margin-left: 80px;
+
+}
+    
+/* 푸터 스타일 */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(232, 246, 199);
+    color: rgb(99, 97, 97);
+    text-align: center;
+    padding: 8px;
+    
+}
+
