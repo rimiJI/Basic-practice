@@ -26,6 +26,15 @@ nav ul li {
 nav ul li a:hover {
     background-color: #444;
 }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
 
 .product {
     text-align: center;
@@ -34,7 +43,7 @@ nav ul li a:hover {
     margin: 30px auto;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 0px 4px 10 px rgba(0, 0, 0, 0.1); /*박스에 그림자 효과*/
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /*박스에 그림자 효과*/
 }
 
 .product img{
