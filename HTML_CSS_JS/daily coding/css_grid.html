@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+    <style>
+      #grid {
+        border: 5px solid pink;
+        display: grid;
+        grid-template-columns: 150px 1fr; /*첫번쨰는 150px만큼, 두번째는 나머지만큼의 공간을 다쓴다:1fr*/
+        /* 2fr 1fr은 화면 전체를 3등분으로 해서 2:1만큼 비율 차지해라 */
+      }
+      div {
+        border: 5px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid">
+      <div>NAVIGATION</div>
+      <div>ARTICLEARTICLEAARTICLEARTICLEARTICLEARTICLEARTI
+        ARTICLEARTICLEARTICLEARTICLEARTICLEARTICLEARTICLEARTICLE
+        CLERTICLEARTICLEARTICLEARTICLEARTICLEARTICLELEARTICLEARTICLEARTICLEARTI
+        ARTICLEARTICLEARTICLEARTICLEARTICLEARTICLEARTICLEARTICLE
+        CLERTICLEARTICLEARTICLEARTICLEARTICLEARTI</div>
+    </div>
+  </body>
+</html>
