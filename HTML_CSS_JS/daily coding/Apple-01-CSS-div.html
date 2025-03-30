@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">Logo</div>
+      <!--이렇게 부모로 안 묶어도 
+      /하나텅빈div 만들어서 flex-grow:1;넣고
+      / 나머지 각각 같은 class넣어준 뒤 margin-right같은거 줘도 됨.-->
+      <div class="menu">
+        <div>products</div>
+        <div>services</div>
+      </div>
+    </nav>
+
+    <style>
+      nav {
+        display: flex;
+        align-items: center;
+        background-color: rgb(249, 118, 118);
+        color: white;
+        height: 80px;
+      }
+      .logo {
+        font-size: 25px;
+        border: 5px solid green;
+        margin: 15px;
+        font-weight: 500;
+      }
+      .menu {
+        display: flex;
+        justify-content: end;
+        flex-grow: 1; /*이게 해결책*/
+        border: 5px solid rgb(0, 64, 255);
+        gap: 20px;
+        margin: 0 15px;
+        font-size: 20px;
+        font-weight: 300;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container row">
+      <div class="one">one</div>
+      <div class="two">two</div>
+      <div class="three">three</div>
+    </div>
+    <div class="container column">
+      <div class="one">one</div>
+      <div class="two">two</div>
+      <div class="three">three</div>
+    </div>
+
+    <style>
+      .container {
+        /* 초기 flex선언을 해줘야 아래 플렉스 동작함 */
+        display: flex;
+        border: 10px solid red;
+        margin: 10px;
+        height: 300px;
+        /* justify-content:center;
+        align-items:center; */
+        flex-wrap: wrap; /*화면이 부족하면 줄바꿈*/
+      }
+      .row {
+        flex-direction: row;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .one {
+        border: 10px solid blue;
+        /* flex-basis: 30px; */
+        /* flex-grow: 0; */
+        /* flex-shrink: 0; */
+      }
+
+      .two {
+        border: 10px solid green;
+        /* flex-basis: 60px; */
+        /* flex-grow: 0; */
+        /* flex-shrink: 0; */
+
+      }
+      .three {
+        border: 10px solid pink;
+        /* flex-basis: 150px; */
+        /* flex-grow: 1; -나머지 여백을 3가 다가져가- */
+        /* flex-shrink: 1; -부족한 여백이 있을때 얘를 아래나 옆으로- */
+      }
+    </style>
+  </body>
+</html>
